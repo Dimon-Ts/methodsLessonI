@@ -1,4 +1,7 @@
 public class Main {
+    public  static  void printGreetings() {
+        System.out.println("Привет,Дмитрий!");
+    }
     public static void printSeparator(){
         System.out.println("=====");
         System.out.println("+++++");
@@ -21,6 +24,7 @@ public class Main {
     public static void main(String[] args) {
         // Методы.Урок с Ильёй Сазоновым.
         System.out.println("Методы.Урок с Ильёй Сазоновым.");
+        printGreetings();
         int[] issuesByMonth = {4, 6, 7, 9, 2, 5, 12, 3, 7, 10, 6, 7, 1, 8,};
         printSeparator();
         for (int i = 0; i < issuesByMonth.length; i++) {
